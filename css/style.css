@@ -13,10 +13,7 @@ body {
     height: 100vh;
     background-image: linear-gradient(#c7ccc6bd, #b1c390c2), url(../img/MarshfieldHome-38\ copy.jpg);
     background-size: cover;
-}
-
-header {
-    position: 
+    background-position: center center;
 }
 
 .logo-box {
