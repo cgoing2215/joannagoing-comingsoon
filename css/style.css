@@ -42,7 +42,7 @@ body {
     display: block;
     text-align: center;
     font-family: 'Ysabeau', sans-serif;
-    font-size: 85px;
+    font-size: 70px;
     font-weight: 400;
     letter-spacing: 20px;
     animation-name: moveInLeft;
@@ -53,7 +53,7 @@ body {
     display: block;
     text-align: right;
     font-family: 'EB Garamond', serif;
-    font-size: 38px;
+    font-size: 24px;
     font-weight: 600;
     letter-spacing: 12px;
     animation-name: moveInRight;
