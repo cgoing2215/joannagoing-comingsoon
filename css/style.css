@@ -11,7 +11,7 @@ body {
     line-height: 1.7;
     color: #777;
     height: 100vh;
-    background-image: linear-gradient(#c7ccc6bd, #b1c390c2), url(../img/MarshfieldHome-38\ copy.jpg);
+    background-image: url(../img/MarshfieldHome-38\ copy.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -42,7 +42,7 @@ body {
     display: block;
     text-align: center;
     font-family: 'Ysabeau', sans-serif;
-    font-size: 80px;
+    font-size: 85px;
     font-weight: 400;
     letter-spacing: 20px;
     animation-name: moveInLeft;
@@ -53,9 +53,9 @@ body {
     display: block;
     text-align: right;
     font-family: 'EB Garamond', serif;
-    font-size: 28px;
-    font-weight: 500;
-    letter-spacing: 14px;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 12px;
     animation-name: moveInRight;
     animation-duration: 3s;
 }
@@ -116,7 +116,15 @@ footer h5 {
     font-size: 20px;
 }
 
+.social-icons li :hover {
+    color: rgb(177, 171, 171);
+}
+
 footer a {
     color: white;
     text-decoration: none;
+}
+
+footer h5 :hover {
+    color: rgb(200, 193, 193);
 }
