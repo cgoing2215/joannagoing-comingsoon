@@ -48,7 +48,7 @@ body {
 
 .text-box {
     position: absolute;
-    top: 40%;
+    top: 20.5%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -62,20 +62,20 @@ body {
     display: block;
     text-align: center;
     font-family: 'Ysabeau', sans-serif;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 400;
-    letter-spacing: 20px;
+    letter-spacing: 8px;
     animation-name: moveInLeft;
     animation-duration: 3s;
 }
 
 .heading-primary-sub {
     display: block;
-    text-align: right;
+    text-align: center;
     font-family: 'EB Garamond', serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
-    letter-spacing: 12px;
+    letter-spacing: 5px;
     animation-name: moveInRight;
     animation-duration: 3s;
 }
@@ -117,12 +117,12 @@ footer {
 }
 
 footer h4 {
-    font-size: 16px;
-    letter-spacing: 5px;
+    font-size: 14px;
+    letter-spacing: 2px;
 }
 
 footer h5 {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .social-icons ul {
@@ -147,4 +147,20 @@ footer a {
 
 footer h5 :hover {
     color: rgb(200, 193, 193);
+}
+
+@media (min-width: 737px) {
+    .text-box {
+        top: 15.5%;
+    }
+}
+
+@media (min-width: 1151px) {
+    .text-box {
+        top: 12.5%;
+    }
+
+    .heading-primary-sub {
+        margin-top: 36px;
+    }
 }
