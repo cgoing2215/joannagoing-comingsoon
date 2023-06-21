@@ -48,7 +48,7 @@ body {
 
 .text-box {
     position: absolute;
-    top: 20.5%;
+    top: 21.5%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -62,7 +62,7 @@ body {
     display: block;
     text-align: center;
     font-family: 'Ysabeau', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 400;
     letter-spacing: 8px;
     animation-name: moveInLeft;
@@ -73,7 +73,7 @@ body {
     display: block;
     text-align: center;
     font-family: 'EB Garamond', serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     letter-spacing: 5px;
     animation-name: moveInRight;
@@ -149,18 +149,36 @@ footer h5 :hover {
     color: rgb(200, 193, 193);
 }
 
-@media (min-width: 737px) {
+@media (min-width: 628px) {
     .text-box {
-        top: 15.5%;
+        top: 18.5%;
+    }
+
+    .heading-primary-main {
+        font-size: 40px;
+    }
+
+    .heading-primary-sub {
+        font-size: 20px;
     }
 }
 
 @media (min-width: 1151px) {
     .text-box {
-        top: 12.5%;
+        top: 21.5%;
     }
 
     .heading-primary-sub {
         margin-top: 36px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .text-box {
+        top: 12%;
+    }
+
+    .heading-primary-sub {
+        margin-top: 26px;
     }
 }
